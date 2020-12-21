@@ -1,0 +1,41 @@
+% -------------------------------------------- % 
+% Template 2020 
+% 
+% version:  0.1
+% author:   Peter Marcus Hoveling
+% date:     21-12-2020
+% -------------------------------------------- %
+
+% -------------------------------------------- %
+% Setup
+% -------------------------------------------- %
+\documentclass[11pt,a4paper]{report}
+\input{preamble/includes.tex}
+\addbibresource{references/references.bib}
+\begin{document}
+
+% -------------------------------------------- %
+% File requirements
+% -------------------------------------------- %
+\input{preamble/00-titlepage.tex}
+\tableofcontents
+
+
+% Chapter inputs
+\input{introduction/introduction}
+
+
+
+
+
+% -------------------------------------------- %
+% Bibliography/References
+% -------------------------------------------- %
+\printbibheading[heading=bibintoc]
+% phantomsection to ignore warning
+\phantomsection
+\printbibliography[heading=subbibintoc,type=online,title={Websites}]
+\printbibliography[heading=subbibintoc,type=book,title={Books}]
+\printbibliography[heading=subbibintoc,type=article,title={Articles}]   
+\end{document}
+
