@@ -1,3 +1,3 @@
 # latex-template
 Personal latex template
-<a href="pdfs/ProjMarr_slides.pdf" class="image fit"><img src="images/marr_pic.jpg" alt=""></a>
+<embed src="https://github.com/201508876PMH/latex-template/blob/master/README.pdf" type="application/pdf" />
